@@ -24,7 +24,7 @@ namespace Pets
         /// Gets or sets the default name of a pet.
         /// </summary>
         [Description("The default name of a pet.")]
-        public string DefaultName { get; set; } = "{Name}'s Pet";
+        public string DefaultName { get; set; } = "Mascota de {Name}";
 
         /// <summary>
         /// Gets or sets the default size of a pet.
