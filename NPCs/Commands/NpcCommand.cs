@@ -36,6 +36,7 @@ namespace NPCs.Commands
         {
             RegisterCommand(new List());
             RegisterCommand(new Spawn());
+            RegisterCommand(new Destroy());
         }
 
         /// <inheritdoc />
